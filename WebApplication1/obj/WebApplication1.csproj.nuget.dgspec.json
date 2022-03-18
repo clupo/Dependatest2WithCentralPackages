@@ -52,32 +52,12 @@
           "dependencies": {
             "CrossBreeze.CrossTest": {
               "target": "Package",
-              "version": "(, )"
-            },
-            "DotFramework.Infra.Caching": {
-              "target": "Package",
-              "version": "(, )"
-            },
-            "KSG.Data.Core": {
-              "target": "Package",
-              "version": "(, )"
+              "version": "[1.0.2.3, )"
             },
             "Microsoft.SourceLink.GitHub": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "(, )"
-            },
-            "Nodsoft.WowsReplaysUnpack": {
-              "target": "Package",
-              "version": "(, )"
-            },
-            "SettingsDb": {
-              "target": "Package",
-              "version": "(, )"
-            },
-            "pdbme.pdbInfrastructure": {
-              "target": "Package",
-              "version": "(, )"
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

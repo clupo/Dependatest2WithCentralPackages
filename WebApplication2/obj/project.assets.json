@@ -2,12 +2,39 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "CrossBreeze.CrossTest/1.0.0": {
+      "CrossBreeze.CrossTest/1.0.2.3": {
         "type": "package",
         "dependencies": {
           "MSTest.TestAdapter": "1.4.0",
           "MSTest.TestFramework": "1.4.0",
-          "SpecFlow": "2.4.0"
+          "Microsoft.AnalysisServices.AdomdClient.retail.amd64": "15.12.1",
+          "Microsoft.SqlServer.SqlManagementObjects": "150.18208.0",
+          "SpecFlow": "[2.4.0, 2.4.1]"
+        },
+        "compile": {
+          "lib/net45/CrossBreeze.CrossDoc.dll": {},
+          "lib/net45/CrossBreeze.CrossTest.Database.dll": {},
+          "lib/net45/CrossBreeze.CrossTest.Process.Ssis.dll": {},
+          "lib/net45/CrossBreeze.CrossTest.SpecFlow.Core.dll": {},
+          "lib/net45/CrossBreeze.CrossTest.Specflow.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CrossBreeze.CrossDoc.dll": {},
+          "lib/net45/CrossBreeze.CrossTest.Database.dll": {},
+          "lib/net45/CrossBreeze.CrossTest.Process.Ssis.dll": {},
+          "lib/net45/CrossBreeze.CrossTest.SpecFlow.Core.dll": {},
+          "lib/net45/CrossBreeze.CrossTest.Specflow.dll": {}
+        }
+      },
+      "Microsoft.AnalysisServices.AdomdClient.retail.amd64/15.12.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.AnalysisServices.AdomdClient.dll": {},
+          "lib/net45/Microsoft.AnalysisServices.SPClient.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AnalysisServices.AdomdClient.dll": {},
+          "lib/net45/Microsoft.AnalysisServices.SPClient.Interfaces.dll": {}
         }
       },
       "Microsoft.Build.Tasks.Git/1.0.0": {
@@ -48,7 +75,7 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.0": {
+      "Microsoft.NETCore.Platforms/2.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -92,6 +119,66 @@
           "buildMultiTargeting/Microsoft.SourceLink.GitHub.targets": {}
         }
       },
+      "Microsoft.SqlServer.SqlManagementObjects/150.18208.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.SqlClient": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Data.Tools.Sql.BatchParser.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Assessment.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.ConnectionInfo.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Dmf.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.Assessment.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.Dmf.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.RegisteredServers.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.Sdk.Sfc.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.SmoMetadataProvider.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.SqlParser.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.SqlScriptPublishModel.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.XEvent.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.XEventDbScoped.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.XEventDbScopedEnum.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.XEventEnum.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.PolicyEnum.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.ServiceBrokerEnum.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Smo.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.SmoExtended.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.SqlEnum.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Data.Tools.Sql.BatchParser.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Assessment.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.ConnectionInfo.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Dmf.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.Assessment.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.Dmf.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.RegisteredServers.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.Sdk.Sfc.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.SmoMetadataProvider.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.SqlParser.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.SqlScriptPublishModel.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.XEvent.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.XEventDbScoped.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.XEventDbScopedEnum.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Management.XEventEnum.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.PolicyEnum.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.ServiceBrokerEnum.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.Smo.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.SmoExtended.dll": {},
+          "lib/netstandard2.0/Microsoft.SqlServer.SqlEnum.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/Microsoft.SqlServer.BatchParser.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Microsoft.SqlServer.BatchParser.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -101,6 +188,29 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "MSTest.TestAdapter/1.4.0": {
@@ -228,6 +338,14 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
         }
       },
       "runtime.native.System.IO.Compression/4.3.0": {
@@ -358,6 +476,33 @@
           "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so": {
             "assetType": "native",
             "rid": "ubuntu.16.10-x64"
+          }
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
           }
         }
       },
@@ -529,6 +674,31 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Console.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "System.Text.Encoding.CodePages": "4.5.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.5.0"
+        },
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
@@ -1037,6 +1207,15 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Runtime.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1143,6 +1322,25 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Security.Cryptography.Algorithms/4.3.0": {
@@ -1362,6 +1560,28 @@
           }
         }
       },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1371,6 +1591,25 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Text.Encoding.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Text.Encoding.Extensions/4.3.0": {
@@ -1533,19 +1772,37 @@
     }
   },
   "libraries": {
-    "CrossBreeze.CrossTest/1.0.0": {
-      "sha512": "7KJLpwgIiJlLX5KWBy+X5cjG4vgyw7ClgY31/HIsvM/CEI5Qtx4i77RY4lPWE+JpIYbeeHlYOmfa1kupmZDtoQ==",
+    "CrossBreeze.CrossTest/1.0.2.3": {
+      "sha512": "FY7f6CEI+Mn9vouh5DnIYPTUqnkEfzBkivzYjOGvwzro+CV+WUOPcGIXhV/FNIVG3da8XgYI4Ik0u5h8+jKoQA==",
       "type": "package",
-      "path": "crossbreeze.crosstest/1.0.0",
+      "path": "crossbreeze.crosstest/1.0.2.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
-        "crossbreeze.crosstest.1.0.0.nupkg.sha512",
+        "content/app.config.transform",
+        "crossbreeze.crosstest.1.0.2.3.nupkg.sha512",
         "crossbreeze.crosstest.nuspec",
-        "lib/net40/CrossBreeze.CrossTest.Database.pdb",
-        "lib/net40/CrossBreeze.CrossTest.Process.Ssis.pdb",
-        "lib/net40/CrossBreeze.CrossTest.SpecFlow.pdb"
+        "lib/net45/CrossBreeze.CrossDoc.dll",
+        "lib/net45/CrossBreeze.CrossTest.Database.dll",
+        "lib/net45/CrossBreeze.CrossTest.Process.Ssis.dll",
+        "lib/net45/CrossBreeze.CrossTest.SpecFlow.Core.dll",
+        "lib/net45/CrossBreeze.CrossTest.Specflow.dll"
+      ]
+    },
+    "Microsoft.AnalysisServices.AdomdClient.retail.amd64/15.12.1": {
+      "sha512": "g5qG0J7+nEZHK/fbRiT52gTaAF5kfeLijtYqC/fXxMWZl0UNe/Jr2dP0uph5WYZ0Nz7AfWNanFVH7dQQFIL2ZQ==",
+      "type": "package",
+      "path": "microsoft.analysisservices.adomdclient.retail.amd64/15.12.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AnalysisServices.AdomdClient.dll",
+        "lib/net45/Microsoft.AnalysisServices.AdomdClient.xml",
+        "lib/net45/Microsoft.AnalysisServices.SPClient.Interfaces.dll",
+        "lib/net45/Microsoft.AnalysisServices.SPClient.Interfaces.xml",
+        "microsoft.analysisservices.adomdclient.retail.amd64.15.12.1.nupkg.sha512",
+        "microsoft.analysisservices.adomdclient.retail.amd64.nuspec"
       ]
     },
     "Microsoft.Build.Tasks.Git/1.0.0": {
@@ -1652,19 +1909,21 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/1.1.0",
+      "path": "microsoft.netcore.platforms/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
-        "runtime.json"
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
@@ -1773,6 +2032,96 @@
         "tools/netcoreapp2.0/zh-Hant/Microsoft.SourceLink.GitHub.resources.dll"
       ]
     },
+    "Microsoft.SqlServer.SqlManagementObjects/150.18208.0": {
+      "sha512": "uvHlNU0wlFSGUHwx9yRu99Cszgf8fK7JVCDXVha9aXeAkwaFH5Ql20ku3ySdhxGOyi9DOuRtTtjlbi6RQp/fEg==",
+      "type": "package",
+      "path": "microsoft.sqlserver.sqlmanagementobjects/150.18208.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License_SMO.rtf",
+        "README.md",
+        "build/net45/Microsoft.SqlServer.SqlManagementObjects.targets",
+        "lib/net45/Microsoft.SqlServer.Assessment.dll",
+        "lib/net45/Microsoft.SqlServer.BatchParserClient.dll",
+        "lib/net45/Microsoft.SqlServer.ConnectionInfo.dll",
+        "lib/net45/Microsoft.SqlServer.ConnectionInfo.xml",
+        "lib/net45/Microsoft.SqlServer.ConnectionInfoExtended.dll",
+        "lib/net45/Microsoft.SqlServer.ConnectionInfoExtended.xml",
+        "lib/net45/Microsoft.SqlServer.Diagnostics.Strace.dll",
+        "lib/net45/Microsoft.SqlServer.Dmf.Common.dll",
+        "lib/net45/Microsoft.SqlServer.Dmf.Common.xml",
+        "lib/net45/Microsoft.SqlServer.Dmf.dll",
+        "lib/net45/Microsoft.SqlServer.Dmf.xml",
+        "lib/net45/Microsoft.SqlServer.Management.Assessment.dll",
+        "lib/net45/Microsoft.SqlServer.Management.Collector.dll",
+        "lib/net45/Microsoft.SqlServer.Management.Collector.xml",
+        "lib/net45/Microsoft.SqlServer.Management.CollectorEnum.dll",
+        "lib/net45/Microsoft.SqlServer.Management.CollectorEnum.xml",
+        "lib/net45/Microsoft.SqlServer.Management.RegisteredServers.dll",
+        "lib/net45/Microsoft.SqlServer.Management.RegisteredServers.xml",
+        "lib/net45/Microsoft.SqlServer.Management.Sdk.Sfc.dll",
+        "lib/net45/Microsoft.SqlServer.Management.Sdk.Sfc.xml",
+        "lib/net45/Microsoft.SqlServer.Management.SqlParser.dll",
+        "lib/net45/Microsoft.SqlServer.Management.Utility.dll",
+        "lib/net45/Microsoft.SqlServer.Management.Utility.xml",
+        "lib/net45/Microsoft.SqlServer.Management.UtilityEnum.dll",
+        "lib/net45/Microsoft.SqlServer.Management.UtilityEnum.xml",
+        "lib/net45/Microsoft.SqlServer.Management.XEvent.dll",
+        "lib/net45/Microsoft.SqlServer.Management.XEvent.xml",
+        "lib/net45/Microsoft.SqlServer.Management.XEventDbScoped.dll",
+        "lib/net45/Microsoft.SqlServer.Management.XEventDbScoped.xml",
+        "lib/net45/Microsoft.SqlServer.Management.XEventDbScopedEnum.dll",
+        "lib/net45/Microsoft.SqlServer.Management.XEventDbScopedEnum.xml",
+        "lib/net45/Microsoft.SqlServer.Management.XEventEnum.dll",
+        "lib/net45/Microsoft.SqlServer.Management.XEventEnum.xml",
+        "lib/net45/Microsoft.SqlServer.PolicyEnum.dll",
+        "lib/net45/Microsoft.SqlServer.PolicyEnum.xml",
+        "lib/net45/Microsoft.SqlServer.RegSvrEnum.dll",
+        "lib/net45/Microsoft.SqlServer.RegSvrEnum.xml",
+        "lib/net45/Microsoft.SqlServer.SString.dll",
+        "lib/net45/Microsoft.SqlServer.ServiceBrokerEnum.dll",
+        "lib/net45/Microsoft.SqlServer.ServiceBrokerEnum.xml",
+        "lib/net45/Microsoft.SqlServer.Smo.dll",
+        "lib/net45/Microsoft.SqlServer.Smo.xml",
+        "lib/net45/Microsoft.SqlServer.SmoExtended.dll",
+        "lib/net45/Microsoft.SqlServer.SmoExtended.xml",
+        "lib/net45/Microsoft.SqlServer.SqlClrProvider.dll",
+        "lib/net45/Microsoft.SqlServer.SqlEnum.dll",
+        "lib/net45/Microsoft.SqlServer.SqlEnum.xml",
+        "lib/net45/Microsoft.SqlServer.SqlTDiagm.dll",
+        "lib/net45/Microsoft.SqlServer.SqlWmiManagement.dll",
+        "lib/net45/Microsoft.SqlServer.SqlWmiManagement.xml",
+        "lib/net45/Microsoft.SqlServer.Types.dll",
+        "lib/net45/Microsoft.SqlServer.Types.xml",
+        "lib/net45/Microsoft.SqlServer.WmiEnum.dll",
+        "lib/net45/Microsoft.SqlServer.WmiEnum.xml",
+        "lib/netstandard2.0/Microsoft.Data.Tools.Sql.BatchParser.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Assessment.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.ConnectionInfo.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Dmf.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.Assessment.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.Dmf.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.RegisteredServers.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.Sdk.Sfc.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.SmoMetadataProvider.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.SqlParser.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.SqlScriptPublishModel.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.XEvent.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.XEventDbScoped.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.XEventDbScopedEnum.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Management.XEventEnum.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.PolicyEnum.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.ServiceBrokerEnum.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.Smo.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.SmoExtended.dll",
+        "lib/netstandard2.0/Microsoft.SqlServer.SqlEnum.dll",
+        "microsoft.sqlserver.sqlmanagementobjects.150.18208.0.nupkg.sha512",
+        "microsoft.sqlserver.sqlmanagementobjects.nuspec",
+        "runtimes/win-x64/native/Microsoft.SqlServer.BatchParser.dll",
+        "runtimes/win-x86/native/Microsoft.SqlServer.BatchParser.dll"
+      ]
+    },
     "Microsoft.Win32.Primitives/4.3.0": {
       "sha512": "9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "type": "package",
@@ -1808,6 +2157,46 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.5.0": {
+      "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "microsoft.win32.registry.4.5.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "MSTest.TestAdapter/1.4.0": {
@@ -2067,6 +2456,21 @@
         "runtime.native.system.nuspec"
       ]
     },
+    "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+      "sha512": "AJfX7owAAkMjWQYhoml5IBfXh8UyYPjktn8pK0BFGAdKgBS7HqMz1fw5vdzfZUWfhtTPDGCjgNttt46ZyEmSjg==",
+      "type": "package",
+      "path": "runtime.native.system.data.sqlclient.sni/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.native.system.data.sqlclient.sni.4.5.0.nupkg.sha512",
+        "runtime.native.system.data.sqlclient.sni.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "runtime.native.System.IO.Compression/4.3.0": {
       "sha512": "INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
       "type": "package",
@@ -2223,6 +2627,51 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "type": "package",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-arm64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "type": "package",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "type": "package",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x86/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "SpecFlow/2.4.0": {
@@ -2724,6 +3173,80 @@
         "ref/xamarinwatchos10/_._",
         "system.console.4.3.0.nupkg.sha512",
         "system.console.nuspec"
+      ]
+    },
+    "System.Data.SqlClient/4.6.0": {
+      "sha512": "gwItUWW1BMCckicFO85c8frFaMK8SGqYn5IeA3GSX4Lmid+CjXETfoHz7Uv+Vx6L0No7iRc/7cBL8gd6o9k9/g==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netcoreapp2.1/System.Data.SqlClient.dll",
+        "ref/netcoreapp2.1/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
+        "system.data.sqlclient.4.6.0.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Diagnostics.Debug/4.3.0": {
@@ -4458,6 +4981,33 @@
         "system.runtime.nuspec"
       ]
     },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "sha512": "YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/uap10.0.16300/_._",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/uap10.0.16300/_._",
+        "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Runtime.Extensions/4.3.0": {
       "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
@@ -4859,6 +5409,48 @@
         "system.runtime.serialization.primitives.nuspec"
       ]
     },
+    "System.Security.AccessControl/4.5.0": {
+      "sha512": "vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.5.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Security.Cryptography.Algorithms/4.3.0": {
       "sha512": "W1kd2Y8mYSCgc3ULTAZ0hOP2dSdG5YauTb1089T0/kRcN2MpSAW1izOFROrJgxSlMn3ArsgHXagigyi+ibhevg==",
       "type": "package",
@@ -5102,6 +5694,49 @@
         "system.security.cryptography.x509certificates.nuspec"
       ]
     },
+    "System.Security.Principal.Windows/4.5.0": {
+      "sha512": "U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.5.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
@@ -5167,6 +5802,54 @@
         "ref/xamarinwatchos10/_._",
         "system.text.encoding.4.3.0.nupkg.sha512",
         "system.text.encoding.nuspec"
+      ]
+    },
+    "System.Text.Encoding.CodePages/4.5.0": {
+      "sha512": "S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/de/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/es/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/fr/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/it/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ja/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ko/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ru/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hans/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hant/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "system.text.encoding.codepages.4.5.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Text.Encoding.Extensions/4.3.0": {
@@ -5724,8 +6407,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CrossBreeze.CrossTest",
-      "Microsoft.SourceLink.GitHub"
+      "CrossBreeze.CrossTest >= 1.0.2.3",
+      "Microsoft.SourceLink.GitHub >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5781,12 +6464,12 @@
         "dependencies": {
           "CrossBreeze.CrossTest": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[1.0.2.3, )"
           },
           "Microsoft.SourceLink.GitHub": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "(, )"
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
@@ -5813,30 +6496,21 @@
   },
   "logs": [
     {
-      "code": "NU1604",
+      "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Project dependency CrossBreeze.CrossTest does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
+      "message": "Package 'CrossBreeze.CrossTest 1.0.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "CrossBreeze.CrossTest",
       "targetGraphs": [
-        ".NETCoreApp,Version=v6.0"
+        "net6.0"
       ]
     },
     {
-      "code": "NU1604",
+      "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Project dependency Microsoft.SourceLink.GitHub does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Microsoft.SourceLink.GitHub",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v6.0"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package CrossBreeze.CrossTest 1.0.0 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Package CrossBreeze.CrossTest 1.0.0 does not support any target frameworks.",
-      "libraryId": "CrossBreeze.CrossTest",
+      "message": "Package 'Microsoft.AnalysisServices.AdomdClient.retail.amd64 15.12.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AnalysisServices.AdomdClient.retail.amd64",
       "targetGraphs": [
         "net6.0"
       ]

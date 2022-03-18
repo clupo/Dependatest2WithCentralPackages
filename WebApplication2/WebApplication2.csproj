@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -6,11 +6,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
-	<PackageReference Include="CrossBreeze.CrossTest"/>
-	<PackageReference Include="DotFramework.Infra.Caching"/>
-	<PackageReference Include="KSG.Data.Core"/>
-	<PackageReference Include="Nodsoft.WowsReplaysUnpack"/>
-	<PackageReference Include="pdbme.pdbInfrastructure"/>
-	<PackageReference Include="SettingsDb"/>
+	<ItemGroup>
+		<PackageReference Include="CrossBreeze.CrossTest"/>
+	</ItemGroup>
 
 </Project>

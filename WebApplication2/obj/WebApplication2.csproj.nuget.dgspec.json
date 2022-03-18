@@ -52,12 +52,12 @@
           "dependencies": {
             "CrossBreeze.CrossTest": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[1.0.2.3, )"
             },
             "Microsoft.SourceLink.GitHub": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "(, )"
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

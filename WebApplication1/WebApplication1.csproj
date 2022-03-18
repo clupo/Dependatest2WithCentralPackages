@@ -5,12 +5,11 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
-	
-    <PackageReference Include="CrossBreeze.CrossTest"/>
-    <PackageReference Include="DotFramework.Infra.Caching"/>
-    <PackageReference Include="KSG.Data.Core"/>
-    <PackageReference Include="Nodsoft.WowsReplaysUnpack"/>
-    <PackageReference Include="pdbme.pdbInfrastructure"/>
-    <PackageReference Include="SettingsDb"/>
+
+	<ItemGroup>
+
+	<PackageReference Include="CrossBreeze.CrossTest"/>
+	</ItemGroup>
+		
 
 </Project>
