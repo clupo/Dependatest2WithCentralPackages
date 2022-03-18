@@ -4,7 +4,7 @@
 
 	<ItemGroup>
     <PackageReference Update="CrossBreeze.CrossTest" Version="1.0.2.3" />
-	<PackageReference Update="Microsoft.SourceLink.GitHub"                                    Version="1.0.0" />
+	<PackageReference Update="Microsoft.SourceLink.GitHub"                                    Version="1.1.1" />
     <PackageReference Update="DotFramework.Infra.Caching" Version="2.97.0" />
     <PackageReference Update="KSG.Data.Core" Version="1.4.1227.3" />
     <PackageReference Update="Nodsoft.WowsReplaysUnpack" Version="0.5.1" />
