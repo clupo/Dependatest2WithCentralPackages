@@ -50,14 +50,98 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AwsSignatureVersion4": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Catalyst.DataProcessing.Engine.SqlServer": {
+              "target": "Package",
+              "version": "[6.1.2203.1803, )"
+            },
+            "CheckoutSDK": {
+              "target": "Package",
+              "version": "[3.7.3, )"
+            },
             "CrossBreeze.CrossTest": {
               "target": "Package",
               "version": "[1.0.2.3, )"
+            },
+            "DotFramework.Infra.Caching": {
+              "target": "Package",
+              "version": "[2.97.0, )"
+            },
+            "Firebend.AutoCrud.Web": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "GitOps.Clients.Email": {
+              "target": "Package",
+              "version": "[0.1.95, )"
+            },
+            "Graphr.Neo4j": {
+              "target": "Package",
+              "version": "[0.0.10, )"
+            },
+            "Jakar.Extensions": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "KSG.Data.Core": {
+              "target": "Package",
+              "version": "[1.4.1227.3, )"
+            },
+            "MPACKAGE.LibWebApi": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MarineLang": {
+              "target": "Package",
+              "version": "[0.3.39-alpha, )"
             },
             "Microsoft.SourceLink.GitHub": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "Microsoft.Windows.SDK.Contracts": {
+              "target": "Package",
+              "version": "[10.0.22579-preview, )"
+            },
+            "Nodsoft.WowsReplaysUnpack": {
+              "target": "Package",
+              "version": "[0.5.1, )"
+            },
+            "Octasharp.GenericRepository.Identity": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "PrismSharp.Highlighting.HTML": {
+              "target": "Package",
+              "version": "[0.1.0-build.1, )"
+            },
+            "Pulumi.GoogleNative": {
+              "target": "Package",
+              "version": "[0.17.2-alpha.1647625230, )"
+            },
+            "SettingsDb": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "datagen.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "datagen.MySql": {
+              "target": "Package",
+              "version": "[0.0.8, )"
+            },
+            "nanoFramework.Iot.Device.Mpu6886": {
+              "target": "Package",
+              "version": "[1.0.288-preview.99, )"
+            },
+            "pdbme.pdbInfrastructure": {
+              "target": "Package",
+              "version": "[1.0.4, )"
             }
           },
           "imports": [
