@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <BuildNumber Condition="'$(BUILD_NUMBER)' == ''">0</BuildNumber>
+    <BuildNumber Condition="'$(BUILD_NUMBER)' != ''">$(BUILD_NUMBER)</BuildNumber>
+    <VersionPrefix>2.2.$(BuildNumber)</VersionPrefix>
+  </PropertyGroup>
+</Project>

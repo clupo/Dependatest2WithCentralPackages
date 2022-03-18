@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PackageReference Update="CrossBreeze.CrossTest" Version="1.0.2.3" />
+    <PackageReference Update="DotFramework.Infra.Caching" Version="2.97.0" />
+    <PackageReference Update="KSG.Data.Core" Version="1.4.1227.3" />
+    <PackageReference Update="Nodsoft.WowsReplaysUnpack" Version="0.5.1" />
+    <PackageReference Update="pdbme.pdbInfrastructure" Version="1.0.4" />
+    <PackageReference Update="SettingsDb" Version="1.1.0" />
+
+
+</Project>
