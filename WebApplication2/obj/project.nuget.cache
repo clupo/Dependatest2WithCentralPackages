@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iyMqy8DHVGUiDAEAYhLo1q33RyYUWCXFJX089FADNPAzEPCC4yhfpslxGREUop/eGOc7OI2ayjSa92ocibJGIg==",
+  "dgSpecHash": "oRMBupoR9s5E9EYJAY6oD3osyX1pKIwlVpjsp2aoIzyU9dDgGrFqADrhP7Gf8v8N1UQuYfBF4/92/h739x6R3A==",
   "success": false,
   "projectFilePath": "C:\\Users\\clupo\\Source\\Repos\\Dependatest2WithCentralPackages\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
@@ -180,7 +180,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\semver\\2.0.6\\semver.2.0.6.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\serilog.extensions.logging\\3.0.1\\serilog.extensions.logging.3.0.1.nupkg.sha512",
-    "C:\\Users\\clupo\\.nuget\\packages\\serilog.sinks.console\\3.1.1\\serilog.sinks.console.3.1.1.nupkg.sha512",
+    "C:\\Users\\clupo\\.nuget\\packages\\serilog.sinks.console\\4.0.0\\serilog.sinks.console.4.0.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\serilog.sinks.file\\4.1.0\\serilog.sinks.file.4.1.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\settingsdb\\1.0.0\\settingsdb.1.0.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\specflow\\2.4.0\\specflow.2.4.0.nupkg.sha512",

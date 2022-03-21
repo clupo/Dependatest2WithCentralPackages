@@ -36,6 +36,7 @@
 	<PackageReference Include="Castle.Core" />
 	<PackageReference Include="Moq" />
 	<PackageReference Include="AutoMapper" />
+	<PackageReference Include="Serilog.Sinks.Console" />
 	</ItemGroup>
 		
 
