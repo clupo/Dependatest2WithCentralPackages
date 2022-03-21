@@ -27,17 +27,16 @@
           "lib/netstandard2.1/Autofac.Extras.DynamicProxy.dll": {}
         }
       },
-      "AutoMapper/10.1.1": {
+      "AutoMapper/11.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "System.Reflection.Emit": "4.7.0"
+          "Microsoft.CSharp": "4.7.0"
         },
         "compile": {
-          "lib/netstandard2.0/AutoMapper.dll": {}
+          "lib/netstandard2.1/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/AutoMapper.dll": {}
+          "lib/netstandard2.1/AutoMapper.dll": {}
         }
       },
       "AWSSDK.Core/3.3.101.9": {
@@ -1716,6 +1715,19 @@
           "build/Microsoft.Windows.SDK.Contracts.targets": {}
         }
       },
+      "Moq/4.17.2": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "4.4.1",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Moq.dll": {}
+        }
+      },
       "morelinq/3.3.2": {
         "type": "package",
         "compile": {
@@ -2453,15 +2465,6 @@
         },
         "runtime": {
           "lib/netstandard1.1/Semver.dll": {}
-        }
-      },
-      "Serilog/2.10.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.1/Serilog.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Serilog.dll": {}
         }
       },
       "Serilog.Extensions.Logging/3.0.1": {
@@ -3551,13 +3554,20 @@
           "ref/netstandard1.5/System.Reflection.dll": {}
         }
       },
-      "System.Reflection.Emit/4.7.0": {
+      "System.Reflection.Emit/4.3.0": {
         "type": "package",
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
         "compile": {
-          "ref/netcoreapp2.0/_._": {}
+          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.0/_._": {}
+          "lib/netstandard1.3/System.Reflection.Emit.dll": {}
         }
       },
       "System.Reflection.Emit.ILGeneration/4.7.0": {
@@ -4302,7 +4312,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.2": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.1/_._": {}
@@ -4531,20 +4541,19 @@
         "lib/netstandard2.1/Autofac.Extras.DynamicProxy.xml"
       ]
     },
-    "AutoMapper/10.1.1": {
-      "sha512": "uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+    "AutoMapper/11.0.1": {
+      "sha512": "WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
       "type": "package",
-      "path": "automapper/10.1.1",
+      "path": "automapper/11.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.10.1.1.nupkg.sha512",
+        "README.md",
+        "automapper.11.0.1.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
-        "lib/net461/AutoMapper.dll",
-        "lib/net461/AutoMapper.xml",
-        "lib/netstandard2.0/AutoMapper.dll",
-        "lib/netstandard2.0/AutoMapper.xml"
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
       ]
     },
     "AWSSDK.Core/3.3.101.9": {
@@ -7068,6 +7077,24 @@
         "ref/netstandard2.0/en/Windows.Web.Http.Diagnostics.HttpDiagnosticsContract.xml"
       ]
     },
+    "Moq/4.17.2": {
+      "sha512": "HytUPJ3/uks2UgJ9hIcyXm3YxpFAR4OJzbQwTHltbKGun3lFLhEHs97hiiPj1dY8jV/kasXeihTzDxct6Zf3iQ==",
+      "type": "package",
+      "path": "moq/4.17.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Moq.dll",
+        "lib/net45/Moq.xml",
+        "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.0/Moq.xml",
+        "lib/netstandard2.1/Moq.dll",
+        "lib/netstandard2.1/Moq.xml",
+        "moq.4.17.2.nupkg.sha512",
+        "moq.nuspec",
+        "moq.png"
+      ]
+    },
     "morelinq/3.3.2": {
       "sha512": "MQc8GppZJLmjvcpEdf3EkC6ovsp7gRWt2e5mC7dcIOrgwSc+yjFd3JQ0iRqr3XrUT6rb/phv0IkEmBtbfVA7AQ==",
       "type": "package",
@@ -8192,30 +8219,6 @@
         "lib/netstandard1.1/Semver.xml",
         "semver.2.0.6.nupkg.sha512",
         "semver.nuspec"
-      ]
-    },
-    "Serilog/2.10.0": {
-      "sha512": "+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
-      "type": "package",
-      "path": "serilog/2.10.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net45/Serilog.dll",
-        "lib/net45/Serilog.xml",
-        "lib/net46/Serilog.dll",
-        "lib/net46/Serilog.xml",
-        "lib/netstandard1.0/Serilog.dll",
-        "lib/netstandard1.0/Serilog.xml",
-        "lib/netstandard1.3/Serilog.dll",
-        "lib/netstandard1.3/Serilog.xml",
-        "lib/netstandard2.0/Serilog.dll",
-        "lib/netstandard2.0/Serilog.xml",
-        "lib/netstandard2.1/Serilog.dll",
-        "lib/netstandard2.1/Serilog.xml",
-        "serilog.2.10.0.nupkg.sha512",
-        "serilog.nuspec"
       ]
     },
     "Serilog.Extensions.Logging/3.0.1": {
@@ -10852,34 +10855,26 @@
         "system.reflection.nuspec"
       ]
     },
-    "System.Reflection.Emit/4.7.0": {
-      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+    "System.Reflection.Emit/4.3.0": {
+      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
       "type": "package",
-      "path": "system.reflection.emit/4.7.0",
+      "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
+        "lib/monotouch10/_._",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.dll",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.1/System.Reflection.Emit.dll",
-        "lib/netstandard1.1/System.Reflection.Emit.xml",
         "lib/netstandard1.3/System.Reflection.Emit.dll",
-        "lib/netstandard2.0/System.Reflection.Emit.dll",
-        "lib/netstandard2.0/System.Reflection.Emit.xml",
-        "lib/netstandard2.1/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
         "ref/net45/_._",
-        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.Reflection.Emit.dll",
         "ref/netstandard1.1/System.Reflection.Emit.xml",
         "ref/netstandard1.1/de/System.Reflection.Emit.xml",
@@ -10891,19 +10886,9 @@
         "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
-        "ref/netstandard2.0/System.Reflection.Emit.dll",
-        "ref/netstandard2.0/System.Reflection.Emit.xml",
-        "ref/netstandard2.1/_._",
-        "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
-        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
-        "system.reflection.emit.4.7.0.nupkg.sha512",
-        "system.reflection.emit.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "system.reflection.emit.4.3.0.nupkg.sha512",
+        "system.reflection.emit.nuspec"
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.7.0": {
@@ -13108,10 +13093,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Threading.Tasks.Extensions/4.5.2": {
-      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "type": "package",
-      "path": "system.threading.tasks.extensions/4.5.2",
+      "path": "system.threading.tasks.extensions/4.5.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -13119,6 +13104,8 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
         "lib/netcoreapp2.1/_._",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
@@ -13137,7 +13124,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
         "system.threading.tasks.extensions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -13617,7 +13604,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AutoMapper >= 11.0.1",
       "AwsSignatureVersion4 >= 3.0.0",
+      "Castle.Core >= 4.4.1",
       "Catalyst.DataProcessing.Engine.SqlServer >= 6.1.2203.1803",
       "CheckoutSDK >= 3.7.3",
       "CrossBreeze.CrossTest >= 1.0.2.3",
@@ -13631,10 +13620,13 @@
       "MarineLang >= 0.3.39-alpha",
       "Microsoft.SourceLink.GitHub >= 1.0.0",
       "Microsoft.Windows.SDK.Contracts >= 10.0.22579-preview",
+      "Moq >= 4.17.2",
+      "Newtonsoft.Json >= 13.0.1",
       "Nodsoft.WowsReplaysUnpack >= 0.5.1",
       "Octasharp.GenericRepository.Identity >= 1.1.0",
       "PrismSharp.Highlighting.HTML >= 0.1.0-build.1",
       "Pulumi.GoogleNative >= 0.17.2-alpha.1647625230",
+      "Serilog >= 2.11.0",
       "SettingsDb >= 1.0.0",
       "datagen.Core >= 1.0.1",
       "datagen.MySql >= 0.0.8",
@@ -13693,9 +13685,17 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[11.0.1, )"
+          },
           "AwsSignatureVersion4": {
             "target": "Package",
             "version": "[3.0.0, )"
+          },
+          "Castle.Core": {
+            "target": "Package",
+            "version": "[4.4.1, )"
           },
           "Catalyst.DataProcessing.Engine.SqlServer": {
             "target": "Package",
@@ -13750,6 +13750,14 @@
             "target": "Package",
             "version": "[10.0.22579-preview, )"
           },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.17.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
           "Nodsoft.WowsReplaysUnpack": {
             "target": "Package",
             "version": "[0.5.1, )"
@@ -13765,6 +13773,10 @@
           "Pulumi.GoogleNative": {
             "target": "Package",
             "version": "[0.17.2-alpha.1647625230, )"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "[2.11.0, )"
           },
           "SettingsDb": {
             "target": "Package",
@@ -13788,6 +13800,7 @@
           }
         },
         "imports": [
+          "uap10.0.22579",
           "net461",
           "net462",
           "net47",
@@ -13822,8 +13835,17 @@
     {
       "code": "NU1102",
       "level": "Error",
-      "message": "Unable to find package Octasharp.GenericRepository.Identity with version (>= 1.1.0)\r\n  - Found 1 version(s) in nuget.org [ Nearest version: 1.0.0 ]\r\n  - Found 1 version(s) in myget [ Nearest version: 1.0.0 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
+      "message": "Unable to find package Octasharp.GenericRepository.Identity with version (>= 1.1.0)\r\n  - Found 2 version(s) in nuget.org [ Nearest version: 1.0.1 ]\r\n  - Found 2 version(s) in myget [ Nearest version: 1.0.1 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
       "libraryId": "Octasharp.GenericRepository.Identity",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Serilog with version (>= 2.11.0)\r\n  - Found 378 version(s) in nuget.org [ Nearest version: 2.11.0-dev-01380 ]\r\n  - Found 378 version(s) in myget [ Nearest version: 2.11.0-dev-01380 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
+      "libraryId": "Serilog",
       "targetGraphs": [
         "net6.0"
       ]
@@ -13833,15 +13855,6 @@
       "level": "Error",
       "message": "Unable to find package OopFactory.X12 with version (>= 6.1.2203.1803)\r\n  - Found 2 version(s) in nuget.org [ Nearest version: 3.0.8.1 ]\r\n  - Found 2 version(s) in myget [ Nearest version: 3.0.8.1 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
       "libraryId": "OopFactory.X12",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
-      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
       "targetGraphs": [
         "net6.0"
       ]
@@ -13874,10 +13887,19 @@
       ]
     },
     {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
+      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CrossBreeze.CrossTest 1.0.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'CrossBreeze.CrossTest 1.0.2.3' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "CrossBreeze.CrossTest",
       "targetGraphs": [
         "net6.0"
@@ -13887,7 +13909,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AnalysisServices.AdomdClient.retail.amd64 15.12.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AnalysisServices.AdomdClient.retail.amd64 15.12.1' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AnalysisServices.AdomdClient.retail.amd64",
       "targetGraphs": [
         "net6.0"
@@ -13897,7 +13919,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.CoreLibrary 1.12.0-preview.19' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.CoreLibrary 1.12.0-preview.19' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.CoreLibrary",
       "targetGraphs": [
         "net6.0"
@@ -13907,7 +13929,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.Iot.Device.Mpu6886 1.0.288-preview.99' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.Iot.Device.Mpu6886 1.0.288-preview.99' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.Iot.Device.Mpu6886",
       "targetGraphs": [
         "net6.0"
@@ -13917,7 +13939,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Buffers.Binary.BinaryPrimitives 1.0.288-preview.97' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Buffers.Binary.BinaryPrimitives 1.0.288-preview.97' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Buffers.Binary.BinaryPrimitives",
       "targetGraphs": [
         "net6.0"
@@ -13927,7 +13949,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Device.I2c 1.0.3-preview.13' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Device.I2c 1.0.3-preview.13' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Device.I2c",
       "targetGraphs": [
         "net6.0"
@@ -13937,7 +13959,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Device.Model 1.0.288-preview.97' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Device.Model 1.0.288-preview.97' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Device.Model",
       "targetGraphs": [
         "net6.0"
@@ -13947,7 +13969,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Math 1.4.4-preview.19' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Math 1.4.4-preview.19' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Math",
       "targetGraphs": [
         "net6.0"
@@ -13957,7 +13979,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Numerics 1.0.288-preview.97' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Numerics 1.0.288-preview.97' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Numerics",
       "targetGraphs": [
         "net6.0"
@@ -13967,7 +13989,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'UnitsNet.nanoFramework.Temperature 4.125.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'UnitsNet.nanoFramework.Temperature 4.125.0' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "UnitsNet.nanoFramework.Temperature",
       "targetGraphs": [
         "net6.0"

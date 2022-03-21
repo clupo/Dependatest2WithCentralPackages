@@ -30,11 +30,11 @@
 		<PackageReference Include="MPACKAGE.LibWebApi"  />
 		<PackageReference Include="CheckoutSDK"  />
 		<PackageReference Include="Graphr.Neo4j"  />
-		<PackageReference Update="Newtonsoft.Json"  />
-		<PackageReference Update="Serilog"  />
-		<PackageReference Update="Castle.Core"  />
-		<PackageReference Update="Moq"  />
-		<PackageReference Update="AutoMapper"  />
+		<PackageReference Include="Newtonsoft.Json"  />
+		<PackageReference Include="Serilog"  />
+		<PackageReference Include="Castle.Core"  />
+		<PackageReference Include="Moq"  />
+		<PackageReference Include="AutoMapper"  />
 	</ItemGroup>
 
 </Project>

@@ -8,34 +8,34 @@
 
 	<ItemGroup>
 
-	<PackageReference Include="CrossBreeze.CrossTest"/>
-	<PackageReference Include="DotFramework.Infra.Caching"/>
-	<PackageReference Include="KSG.Data.Core"/>
-	<PackageReference Include="Nodsoft.WowsReplaysUnpack"/>
-	<PackageReference Include="pdbme.pdbInfrastructure"/>
-	<PackageReference Include="SettingsDb"/>
-	<PackageReference Include="datagen.MySql"/>
-	<PackageReference Include="Octasharp.GenericRepository.Identity"  />
-	<PackageReference Include="SettingsDb"  />
-	<PackageReference Include="Firebend.AutoCrud.Web"  />
-	<PackageReference Include="datagen.Core"  />
-	<PackageReference Include="Jakar.Extensions"  />
-	<PackageReference Include="MarineLang"  />
-	<PackageReference Include="Catalyst.DataProcessing.Engine.SqlServer"  />
-	<PackageReference Include="PrismSharp.Highlighting.HTML"  />
-	<PackageReference Include="Pulumi.GoogleNative"  />
-	<PackageReference Include="Microsoft.Windows.SDK.Contracts"  />
-	<PackageReference Include="GitOps.Clients.Email"  />
-	<PackageReference Include="nanoFramework.Iot.Device.Mpu6886"  />
-	<PackageReference Include="AwsSignatureVersion4"  />
-	<PackageReference Include="MPACKAGE.LibWebApi"  />
-	<PackageReference Include="CheckoutSDK"  />
-	<PackageReference Include="Graphr.Neo4j"  />
-	<PackageReference Update="Newtonsoft.Json"  />
-	<PackageReference Update="Serilog"  />
-	<PackageReference Update="Castle.Core"  />
-	<PackageReference Update="Moq"  />
-	<PackageReference Update="AutoMapper"  />
+	<PackageReference Include="CrossBreeze.CrossTest" />
+	<PackageReference Include="DotFramework.Infra.Caching" />
+	<PackageReference Include="KSG.Data.Core" />
+	<PackageReference Include="Nodsoft.WowsReplaysUnpack" />
+	<PackageReference Include="pdbme.pdbInfrastructure" />
+	<PackageReference Include="SettingsDb" />
+	<PackageReference Include="datagen.MySql" />
+	<PackageReference Include="Octasharp.GenericRepository.Identity" />
+	<PackageReference Include="SettingsDb" />
+	<PackageReference Include="Firebend.AutoCrud.Web" />
+	<PackageReference Include="datagen.Core" />
+	<PackageReference Include="Jakar.Extensions" />
+	<PackageReference Include="MarineLang" />
+	<PackageReference Include="Catalyst.DataProcessing.Engine.SqlServer" />
+	<PackageReference Include="PrismSharp.Highlighting.HTML" />
+	<PackageReference Include="Pulumi.GoogleNative" />
+	<PackageReference Include="Microsoft.Windows.SDK.Contracts" />
+	<PackageReference Include="GitOps.Clients.Email" />
+	<PackageReference Include="nanoFramework.Iot.Device.Mpu6886" />
+	<PackageReference Include="AwsSignatureVersion4" />
+	<PackageReference Include="MPACKAGE.LibWebApi" />
+	<PackageReference Include="CheckoutSDK" />
+	<PackageReference Include="Graphr.Neo4j" />
+	<PackageReference Include="Newtonsoft.Json" />
+	<PackageReference Include="Serilog" />
+	<PackageReference Include="Castle.Core" />
+	<PackageReference Include="Moq" />
+	<PackageReference Include="AutoMapper" />
 	</ItemGroup>
 		
 

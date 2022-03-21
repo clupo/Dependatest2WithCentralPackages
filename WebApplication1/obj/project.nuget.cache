@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TL+PlfIBDM0K6H0+qoTTAJ8ybx7E+yIje+np5ULa6KfsaCSlEm5IHL5JDfYWzxHPvYhXbDTxjkgPGUE7N9QLLw==",
+  "dgSpecHash": "AkAos1z5UysTJG5X9MF5Z+fiYBwsYNooauyjIb+BttwS/8r9SCW89LZf51H5GZ9tqkbDC93CzJkvPLmE+njZEA==",
   "success": false,
   "projectFilePath": "C:\\Users\\clupo\\Source\\Repos\\Dependatest2WithCentralPackages\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clupo\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
-    "C:\\Users\\clupo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\clupo\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\awssdk.core\\3.3.101.9\\awssdk.core.3.3.101.9.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\awssignatureversion4\\3.0.0\\awssignatureversion4.3.0.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
@@ -120,6 +120,7 @@
     "C:\\Users\\clupo\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.22579-preview\\microsoft.windows.sdk.contracts.10.0.22579-preview.nupkg.sha512",
+    "C:\\Users\\clupo\\.nuget\\packages\\moq\\4.17.2\\moq.4.17.2.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\morelinq\\3.3.2\\morelinq.3.3.2.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\mstest.testadapter\\1.4.0\\mstest.testadapter.1.4.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\mstest.testframework\\1.4.0\\mstest.testframework.1.4.0.nupkg.sha512",
@@ -178,7 +179,6 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\semver\\2.0.6\\semver.2.0.6.nupkg.sha512",
-    "C:\\Users\\clupo\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\serilog.extensions.logging\\3.0.1\\serilog.extensions.logging.3.0.1.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\serilog.sinks.console\\3.1.1\\serilog.sinks.console.3.1.1.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\serilog.sinks.file\\4.1.0\\serilog.sinks.file.4.1.0.nupkg.sha512",
@@ -240,7 +240,7 @@
     "C:\\Users\\clupo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\clupo\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
@@ -285,7 +285,7 @@
     "C:\\Users\\clupo\\.nuget\\packages\\system.threading.accesscontrol\\5.0.0\\system.threading.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\system.threading.tasks.dataflow\\6.0.0\\system.threading.tasks.dataflow.6.0.0.nupkg.sha512",
-    "C:\\Users\\clupo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\clupo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.thread\\4.3.0\\system.threading.thread.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.threadpool\\4.3.0\\system.threading.threadpool.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
@@ -312,8 +312,17 @@
     {
       "code": "NU1102",
       "level": "Error",
-      "message": "Unable to find package Octasharp.GenericRepository.Identity with version (>= 1.1.0)\r\n  - Found 1 version(s) in nuget.org [ Nearest version: 1.0.0 ]\r\n  - Found 1 version(s) in myget [ Nearest version: 1.0.0 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
+      "message": "Unable to find package Octasharp.GenericRepository.Identity with version (>= 1.1.0)\r\n  - Found 2 version(s) in nuget.org [ Nearest version: 1.0.1 ]\r\n  - Found 2 version(s) in myget [ Nearest version: 1.0.1 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
       "libraryId": "Octasharp.GenericRepository.Identity",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Serilog with version (>= 2.11.0)\r\n  - Found 378 version(s) in nuget.org [ Nearest version: 2.11.0-dev-01380 ]\r\n  - Found 378 version(s) in myget [ Nearest version: 2.11.0-dev-01380 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
+      "libraryId": "Serilog",
       "targetGraphs": [
         "net6.0"
       ]
@@ -323,6 +332,15 @@
       "level": "Error",
       "message": "Unable to find package OopFactory.X12 with version (>= 6.1.2203.1803)\r\n  - Found 2 version(s) in nuget.org [ Nearest version: 3.0.8.1 ]\r\n  - Found 2 version(s) in myget [ Nearest version: 3.0.8.1 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
       "libraryId": "OopFactory.X12",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
+      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
       "targetGraphs": [
         "net6.0"
       ]
@@ -355,19 +373,10 @@
       ]
     },
     {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
-      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CrossBreeze.CrossTest 1.0.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'CrossBreeze.CrossTest 1.0.2.3' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "CrossBreeze.CrossTest",
       "targetGraphs": [
         "net6.0"
@@ -377,7 +386,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AnalysisServices.AdomdClient.retail.amd64 15.12.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AnalysisServices.AdomdClient.retail.amd64 15.12.1' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AnalysisServices.AdomdClient.retail.amd64",
       "targetGraphs": [
         "net6.0"
@@ -387,7 +396,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.CoreLibrary 1.12.0-preview.19' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.CoreLibrary 1.12.0-preview.19' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.CoreLibrary",
       "targetGraphs": [
         "net6.0"
@@ -397,7 +406,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.Iot.Device.Mpu6886 1.0.288-preview.99' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.Iot.Device.Mpu6886 1.0.288-preview.99' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.Iot.Device.Mpu6886",
       "targetGraphs": [
         "net6.0"
@@ -407,7 +416,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Buffers.Binary.BinaryPrimitives 1.0.288-preview.97' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Buffers.Binary.BinaryPrimitives 1.0.288-preview.97' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Buffers.Binary.BinaryPrimitives",
       "targetGraphs": [
         "net6.0"
@@ -417,7 +426,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Device.I2c 1.0.3-preview.13' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Device.I2c 1.0.3-preview.13' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Device.I2c",
       "targetGraphs": [
         "net6.0"
@@ -427,7 +436,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Device.Model 1.0.288-preview.97' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Device.Model 1.0.288-preview.97' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Device.Model",
       "targetGraphs": [
         "net6.0"
@@ -437,7 +446,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Math 1.4.4-preview.19' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Math 1.4.4-preview.19' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Math",
       "targetGraphs": [
         "net6.0"
@@ -447,7 +456,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'nanoFramework.System.Numerics 1.0.288-preview.97' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'nanoFramework.System.Numerics 1.0.288-preview.97' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "nanoFramework.System.Numerics",
       "targetGraphs": [
         "net6.0"
@@ -457,7 +466,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'UnitsNet.nanoFramework.Temperature 4.125.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'UnitsNet.nanoFramework.Temperature 4.125.0' was restored using 'UAP,Version=v10.0.22579, .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "UnitsNet.nanoFramework.Temperature",
       "targetGraphs": [
         "net6.0"

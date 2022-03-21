@@ -50,9 +50,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
             "AwsSignatureVersion4": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
             },
             "Catalyst.DataProcessing.Engine.SqlServer": {
               "target": "Package",
@@ -107,6 +115,14 @@
               "target": "Package",
               "version": "[10.0.22579-preview, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.17.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Nodsoft.WowsReplaysUnpack": {
               "target": "Package",
               "version": "[0.5.1, )"
@@ -122,6 +138,10 @@
             "Pulumi.GoogleNative": {
               "target": "Package",
               "version": "[0.17.2-alpha.1647625230, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0, )"
             },
             "SettingsDb": {
               "target": "Package",
@@ -145,6 +165,7 @@
             }
           },
           "imports": [
+            "uap10.0.22579",
             "net461",
             "net462",
             "net47",
