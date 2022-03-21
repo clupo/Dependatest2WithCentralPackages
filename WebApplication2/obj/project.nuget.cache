@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AugiVhmTdjUpnaGxRdbl1MiGYtloJOoE7odq+0BlD0wFxTmD7QJcp06CWmcQlYIKiZvHZw+jdKdVItW/B7V8/w==",
+  "dgSpecHash": "iyMqy8DHVGUiDAEAYhLo1q33RyYUWCXFJX089FADNPAzEPCC4yhfpslxGREUop/eGOc7OI2ayjSa92ocibJGIg==",
   "success": false,
   "projectFilePath": "C:\\Users\\clupo\\Source\\Repos\\Dependatest2WithCentralPackages\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clupo\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
-    "C:\\Users\\clupo\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\clupo\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\awssdk.core\\3.3.101.9\\awssdk.core.3.3.101.9.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\awssignatureversion4\\3.0.0\\awssignatureversion4.3.0.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
@@ -337,6 +337,15 @@
       ]
     },
     {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
+      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
       "code": "NU1101",
       "level": "Error",
       "message": "Unable to find package Catalyst.DataProcessing.Engine.SqlParsing. No packages exist with this id in source(s): github, localfeed, myget, nuget.org",
@@ -359,15 +368,6 @@
       "level": "Error",
       "message": "Unable to find package Catalyst.DataProcessing.Shared.Models. No packages exist with this id in source(s): github, localfeed, myget, nuget.org",
       "libraryId": "Catalyst.DataProcessing.Shared.Models",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
-      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
       "targetGraphs": [
         "net6.0"
       ]
