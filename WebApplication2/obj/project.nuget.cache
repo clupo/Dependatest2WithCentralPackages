@@ -337,15 +337,6 @@
       ]
     },
     {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
-      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
       "code": "NU1101",
       "level": "Error",
       "message": "Unable to find package Catalyst.DataProcessing.Engine.SqlParsing. No packages exist with this id in source(s): github, localfeed, myget, nuget.org",
@@ -368,6 +359,15 @@
       "level": "Error",
       "message": "Unable to find package Catalyst.DataProcessing.Shared.Models. No packages exist with this id in source(s): github, localfeed, myget, nuget.org",
       "libraryId": "Catalyst.DataProcessing.Shared.Models",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
+      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
       "targetGraphs": [
         "net6.0"
       ]

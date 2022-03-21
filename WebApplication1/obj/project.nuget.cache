@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HHFhGNEcz/5Bs49l66xjowIxq9uyBqJstUFWYwcutvrSeCeHiMDkW6k06qb4aoP99dOq7ipJjpar3yhyEziTYg==",
+  "dgSpecHash": "7tIcuXGRhGVN6RCZ8PSK9UFks+vYZEan0kvXkPFZ0fVROEOEdDFOP/6mexkjzMukT5Y65fLTmary3wGYc/z4kQ==",
   "success": false,
   "projectFilePath": "C:\\Users\\clupo\\Source\\Repos\\Dependatest2WithCentralPackages\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
@@ -180,7 +180,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\semver\\2.0.6\\semver.2.0.6.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\serilog.extensions.logging\\3.0.1\\serilog.extensions.logging.3.0.1.nupkg.sha512",
-    "C:\\Users\\clupo\\.nuget\\packages\\serilog.sinks.console\\3.1.1\\serilog.sinks.console.3.1.1.nupkg.sha512",
+    "C:\\Users\\clupo\\.nuget\\packages\\serilog.sinks.console\\4.0.0\\serilog.sinks.console.4.0.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\serilog.sinks.file\\4.1.0\\serilog.sinks.file.4.1.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\settingsdb\\1.0.0\\settingsdb.1.0.0.nupkg.sha512",
     "C:\\Users\\clupo\\.nuget\\packages\\specflow\\2.4.0\\specflow.2.4.0.nupkg.sha512",
@@ -337,15 +337,6 @@
       ]
     },
     {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
-      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
       "code": "NU1101",
       "level": "Error",
       "message": "Unable to find package Catalyst.DataProcessing.Engine.SqlParsing. No packages exist with this id in source(s): github, localfeed, myget, nuget.org",
@@ -368,6 +359,15 @@
       "level": "Error",
       "message": "Unable to find package Catalyst.DataProcessing.Shared.Models. No packages exist with this id in source(s): github, localfeed, myget, nuget.org",
       "libraryId": "Catalyst.DataProcessing.Shared.Models",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Catalyst.DataProcessing.Shared.Utilities with version (>= 6.1.2203.1803)\r\n  - Found 330 version(s) in nuget.org [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 330 version(s) in myget [ Nearest version: 6.1.2107.2203 ]\r\n  - Found 0 version(s) in localfeed\r\n  - Found 0 version(s) in github",
+      "libraryId": "Catalyst.DataProcessing.Shared.Utilities",
       "targetGraphs": [
         "net6.0"
       ]
