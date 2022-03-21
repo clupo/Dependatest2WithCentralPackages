@@ -17,15 +17,15 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)mstest.testadapter\1.4.0\build\netcoreapp1.0\MSTest.TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)mstest.testadapter\1.4.0\build\netcoreapp1.0\MSTest.TestAdapter.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.contracts\10.0.22579-preview\build\Microsoft.Windows.SDK.Contracts.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.contracts\10.0.22579-preview\build\Microsoft.Windows.SDK.Contracts.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.common\1.0.0\build\Microsoft.SourceLink.Common.props" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.common\1.0.0\build\Microsoft.SourceLink.Common.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.build.tasks.git\1.0.0\build\Microsoft.Build.Tasks.Git.props" Condition="Exists('$(NuGetPackageRoot)microsoft.build.tasks.git\1.0.0\build\Microsoft.Build.Tasks.Git.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.github\1.0.0\build\Microsoft.SourceLink.GitHub.props" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.github\1.0.0\build\Microsoft.SourceLink.GitHub.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.common\1.1.1\build\Microsoft.SourceLink.Common.props" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.common\1.1.1\build\Microsoft.SourceLink.Common.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.build.tasks.git\1.1.1\build\Microsoft.Build.Tasks.Git.props" Condition="Exists('$(NuGetPackageRoot)microsoft.build.tasks.git\1.1.1\build\Microsoft.Build.Tasks.Git.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.github\1.1.1\build\Microsoft.SourceLink.GitHub.props" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.github\1.1.1\build\Microsoft.SourceLink.GitHub.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgSpecFlow Condition=" '$(PkgSpecFlow)' == '' ">C:\Users\clupo\.nuget\packages\specflow\2.4.0</PkgSpecFlow>
-    <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">C:\Users\clupo\.nuget\packages\microsoft.sourcelink.common\1.0.0</PkgMicrosoft_SourceLink_Common>
-    <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">C:\Users\clupo\.nuget\packages\microsoft.build.tasks.git\1.0.0</PkgMicrosoft_Build_Tasks_Git>
-    <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">C:\Users\clupo\.nuget\packages\microsoft.sourcelink.github\1.0.0</PkgMicrosoft_SourceLink_GitHub>
+    <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">C:\Users\clupo\.nuget\packages\microsoft.sourcelink.common\1.1.1</PkgMicrosoft_SourceLink_Common>
+    <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">C:\Users\clupo\.nuget\packages\microsoft.build.tasks.git\1.1.1</PkgMicrosoft_Build_Tasks_Git>
+    <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">C:\Users\clupo\.nuget\packages\microsoft.sourcelink.github\1.1.1</PkgMicrosoft_SourceLink_GitHub>
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\clupo\.nuget\packages\awssdk.core\3.3.101.9</PkgAWSSDK_Core>
   </PropertyGroup>
 </Project>
