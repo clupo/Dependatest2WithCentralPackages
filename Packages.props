@@ -21,7 +21,7 @@
 	<PackageReference Update="PrismSharp.Highlighting.HTML" Version="0.1.0-build.1" />
 	<PackageReference Update="Pulumi.GoogleNative" Version="0.17.2-alpha.1647625230" />
 	<PackageReference Update="Microsoft.Windows.SDK.Contracts" Version="10.0.22579-preview" />
-	<PackageReference Update="GitOps.Clients.Email" Version="0.1.95" />
+	<PackageReference Update="GitOps.Clients.Email" Version="0.1.99" />
 	<PackageReference Update="nanoFramework.Iot.Device.Mpu6886" Version="1.0.288-preview.99" />
 	<PackageReference Update="AwsSignatureVersion4" Version="3.0.0" />
 	<PackageReference Update="MPACKAGE.LibWebApi" Version="3.0.0" />
