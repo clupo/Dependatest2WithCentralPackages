@@ -11,6 +11,6 @@
       ]
     }
   ],
-  "timezone": "America/New_York"
+  "timezone": "America/New_York",
   "schedule": ["1 hour"]
 }
