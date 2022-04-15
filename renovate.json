@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "groupName": "NuGet packages",
+      "matchUpdateTypes": ["patch", "minor"],
+      "matchDepTypes": [
+        "nuget"
+      ]
+    }
+  ]
+}
