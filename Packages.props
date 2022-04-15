@@ -31,8 +31,8 @@
     <PackageReference Update="Serilog" Version="2.11.0" />
     <PackageReference Update="Castle.Core" Version="4.4.1" />
     <PackageReference Update="Moq" Version="4.17.2" />
-    <PackageReference Update="AutoMapper" Version="11.0.1" />
-    <PackageReference Update="Serilog.Sinks.Console" Version="4.0.1" />
+    <PackageReference Update="AutoMapper" Version="11.0.0" />
+    <PackageReference Update="Serilog.Sinks.Console" Version="4.0.0" />
 
 	</ItemGroup>
 
