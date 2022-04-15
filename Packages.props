@@ -10,7 +10,7 @@
     <PackageReference Update="Nodsoft.WowsReplaysUnpack" Version="0.5.1" />
     <PackageReference Update="pdbme.pdbInfrastructure" Version="1.0.4" />
     <PackageReference Update="SettingsDb" Version="1.1.0" />
-	<PackageReference Update="datagen.MySql" Version="0.0.8" />
+	<PackageReference Update="datagen.MySql" Version="1.1.1" />
 	<PackageReference Update="Octasharp.GenericRepository.Identity" Version="1.1.0" />
 	<PackageReference Update="SettingsDb" Version="1.0.0" />
 	<PackageReference Update="Firebend.AutoCrud.Web" Version="4.2.2" />
