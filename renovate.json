@@ -4,13 +4,11 @@
   ],
   "packageRules": [
     {
-      "groupName": "2 NuGet packages 2",
+      "groupName": "NuGet packages",
       "matchUpdateTypes": ["patch", "minor"],
       "matchDepTypes": [
         "nuget"
       ]
     }
-  ],
-  "branchConcurrentLimit": 3,
-  "prConcurrentLimit": 2
+  ]
 }
