@@ -12,5 +12,5 @@
     }
   ],
   "timezone": "America/New_York",
-  "schedule": ["every 1 hours"]
+  "schedule": ["every 1 hours every weekday"]
 }
