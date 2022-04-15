@@ -11,5 +11,6 @@
       ]
     }
   ],
-  "branchConcurrentLimit": 3
+  "branchConcurrentLimit": 3,
+  "prConcurrentLimit": 3
 }
