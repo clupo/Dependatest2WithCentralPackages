@@ -11,5 +11,6 @@
       ]
     }
   ],
-  "schedule": ["60 * * * *"]
+  "timezone": "America/New_York"
+  "schedule": ["0 * * * *"]
 }
