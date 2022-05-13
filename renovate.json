@@ -17,7 +17,7 @@
     {
       "matchHost": "https://nuget.pkg.github.com/",
       "hostType": "github",
-      "username": "CenterEdge",
+      "orgnization": "CenterEdge",
       "encrypted": {
         "password": "wcFMA/xDdHCJBTolAQ//RcWOQqSfd1zd/dyhz+GmjahMNhi7VGo0N+6ebuX1O1AZ58P3Kj1u7EP3bd8RbM+4CRk3BgIMraRF8gpmv0T29EoLDO5uuUJg4W0AsK6XhG/AKh4Yah0V3V9o4UlBMEqMFkKaR4+SS10wytIS/0kRZEIjdCSAIQWqtVqm/rfQE5CxZU4XBOA79szg2LJqBtWW3cNrysrp3LxOCdx9s3WnFKe3DO9FnC5mFhtgx5cZXpfSnfoo3jfYu/O5PWgeE0AVBjuqfsACF3b8MagdKe20tM3Y/QylXm4B4KiTq2o7gWx0COzoaXmYohoqwGNSzwgXt3UzFHC2vVegvI0NLIZecicLE1FhiYYTqwQOZ+JWKYwvcaJaECI+qEpq6f9PHBvAirCawbrcuB2qcBPq43ZjndSdrpm7sbgCfmLnZNYlQWqIh/vFO9/w5QIqwHMfg671nluj1GiXDG+xhzgaDttX5NtG/8VCRNeljJbYgEkvtV9MveCg7DAoM7Ye0/4JPcAMxCa3Qx64JhZKfxbQk6U14eg9pNOTzdl8M8TM17+Yh6iYuDmZttuHCexe6hXWbUh/W6vDodPGAzIXET5VrmHevmNsbzl8Jdxg2SvFat1hKT5YOZRSJOKPLTgTcI0k7HramZnbWcih3bjjn1z8w6PsBfT2XdV6srPVofQbexB5+STSeQEmrqjgvWrA1TienIQvNKC8Grb1p+hDBtvVIVD3q1dOVtOV0ykc2Vwsmp0cFcIsgaRr7/HO1vN8G7fEhotoq2fU9Fmn1Z9kKqkdiaHTRoZau2K0z5wgbeTjlLPI59AgkP7uXKLnjrxSEz6wEa737lonkubPBKYvWKs"
       }
