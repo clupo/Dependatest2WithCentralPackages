@@ -5,32 +5,32 @@
 	<ItemGroup>
     <PackageReference Update="CrossBreeze.CrossTest" Version="1.0.2.3" />
 	<PackageReference Update="Microsoft.SourceLink.GitHub"                                    Version="1.1.1" />
-    <PackageReference Update="DotFramework.Infra.Caching" Version="2.97.1" />
+    <PackageReference Update="DotFramework.Infra.Caching" Version="2.97.3" />
     <PackageReference Update="KSG.Data.Core" Version="1.5.101.1" />
-    <PackageReference Update="Nodsoft.WowsReplaysUnpack" Version="0.5.1" />
+    <PackageReference Update="Nodsoft.WowsReplaysUnpack" Version="0.5.2" />
     <PackageReference Update="pdbme.pdbInfrastructure" Version="1.0.5" />
-    <PackageReference Update="SettingsDb" Version="1.1.0" />
+    <PackageReference Update="SettingsDb" Version="1.2.1" />
 	<PackageReference Update="datagen.MySql" Version="0.0.8" />
 	<PackageReference Update="Octasharp.GenericRepository.Identity" Version="1.1.0" />
-	<PackageReference Update="SettingsDb" Version="1.1.0" />
-	<PackageReference Update="Firebend.AutoCrud.Web" Version="4.3.2" />
-	<PackageReference Update="datagen.Core" Version="1.0.3" />
-	<PackageReference Update="Jakar.Extensions" Version="5.8.2" />
+	<PackageReference Update="SettingsDb" Version="1.2.1" />
+	<PackageReference Update="Firebend.AutoCrud.Web" Version="4.3.7" />
+	<PackageReference Update="datagen.Core" Version="1.0.4" />
+	<PackageReference Update="Jakar.Extensions" Version="5.9.3" />
 	<PackageReference Update="MarineLang" Version="0.3.39-alpha" />
-	<PackageReference Update="Catalyst.DataProcessing.Engine.SqlServer" Version="6.1.2204.1302" />
+	<PackageReference Update="Catalyst.DataProcessing.Engine.SqlServer" Version="6.1.2205.2003" />
 	<PackageReference Update="PrismSharp.Highlighting.HTML" Version="0.1.0-build.2" />
-	<PackageReference Update="Pulumi.GoogleNative" Version="0.18.0" />
+	<PackageReference Update="Pulumi.GoogleNative" Version="0.19.1" />
 	<PackageReference Update="Microsoft.Windows.SDK.Contracts" Version="10.0.22579-preview" />
-	<PackageReference Update="GitOps.Clients.Email" Version="0.1.107" />
-	<PackageReference Update="nanoFramework.Iot.Device.Mpu6886" Version="1.1.3" />
+	<PackageReference Update="GitOps.Clients.Email" Version="0.1.123" />
+	<PackageReference Update="nanoFramework.Iot.Device.Mpu6886" Version="1.1.64.21380" />
 	<PackageReference Update="AwsSignatureVersion4" Version="3.0.1" />
 	<PackageReference Update="MPACKAGE.LibWebApi" Version="3.0.0" />
-    <PackageReference Update="CheckoutSDK" Version="3.8.0" />
-    <PackageReference Update="Graphr.Neo4j" Version="0.0.10" />
+    <PackageReference Update="CheckoutSDK" Version="3.8.3" />
+    <PackageReference Update="Graphr.Neo4j" Version="0.0.14" />
     <PackageReference Update="Newtonsoft.Json" Version="13.0.1 " />
     <PackageReference Update="Serilog" Version="2.11.0" />
     <PackageReference Update="Castle.Core" Version="4.4.1" />
-    <PackageReference Update="Moq" Version="4.17.2" />
+    <PackageReference Update="Moq" Version="4.18.1" />
     <PackageReference Update="AutoMapper" Version="10.1.1" />
     <PackageReference Update="Serilog.Sinks.Console" Version="4.0.1" />
     <PackageReference Update="CenterEdge.Transactions" Version="2.0.0" />
