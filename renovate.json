@@ -4,7 +4,7 @@
   ],
   "packageRules": [
     {
-      "groupName": "NuGet packages",
+      "groupName": "NuGet packages 20",
       "matchUpdateTypes": ["patch", "minor"],
       "matchDepTypes": [
         "nuget"
