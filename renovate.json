@@ -12,15 +12,5 @@
     }
   ],
   "timezone": "America/New_York",
-  "schedule": ["every 1 hours every weekday"],
-  "hostRules": [
-    {
-      "matchHost": "https://nuget.pkg.github.com/",
-      "hostType": "github",
-      "username": "clupo",
-      "encrypted": {
-        "password": "wcFMA/xDdHCJBTolAQ//aQPZOPxDDO30TrL0lKY4tQ2D2AoaUMBMbX0U6kzLhLj/vOmV8BYtxDFMg4BqjPdcuIv6KtnYgK+9buhODAuCeUmy3AGubARyh8802ZT/+FYGFJUAmei9LqACwLYg8tnnZ5lPYnnpEFzzMrbzqsUld6ZXib7sdanyZcdnBZwOD37L3P27iB2Xy6bXTpeUY+7/b/7yXRYdVtXLxQMEyinFT7/lGm2Lwy3Ba9E9iMrSWMUdobot7ci9J+juS5owlTYXHJF5L3IVU7guleeChopDTLyjJLy9Li2eLFM92pI0Vmwvipk5kVLEA6SMMfGibXcC7VXFYZ1dn+Cbp+lT0r431bhmIjUDPi3zkELTXxaOrMB2rkT2wb5Ha/DgiGPeFxQmYBf5pFrq8PbQceTkWWEDf6KF5frkDMcyL7lGvZ7CVwlbnaDTy7qbQweifCU5/WuINCL2iV7gmt3XaF6YdgToQUFgb2X8aLoueR9qEsbI2XYzn5irfqgRisziQTl6ffMOXztg0+/s9mtElBpIZuXri7EqjoP68zz4/EpzPgj+c6E3mlHnnk5kbtijACCrIjQiDoIz6/KtpEvJMRdyj7Hfvz3CJTuXX3ojQ35S6HR+FkGVvnfD2PThOjVo4PQVNxk6lmFUC7zFn4XYR9adVEF467QQPDAX1YaibxywghcTBgPSdAF2PIQyILgfOFIlALpbRXr8Wf/gDomzQ9mRb6qeeMLY0FluIAJ1R+rRVzRfKRQVStHXA0u7Nhzqku1p+OUoE+b2I+evjNamsvsYK7XWy88HoL9zMnm01zpTbvZARjVOnrNsZUJQnG/8xxbdFZX20MAQH84E"
-      }
-    }
-  ]  
+  "schedule": ["every 1 hours every weekday"]
 }
