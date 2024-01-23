@@ -13,7 +13,7 @@
 	<PackageReference Update="datagen.MySql" Version="0.0.8" />
 	<PackageReference Update="Octasharp.GenericRepository.Identity" Version="1.1.0" />
 	<PackageReference Update="SettingsDb" Version="1.1.0" />
-	<PackageReference Update="Firebend.AutoCrud.Web" Version="4.3.2" />
+	<PackageReference Update="Firebend.AutoCrud.Web" Version="9.6.4" />
 	<PackageReference Update="datagen.Core" Version="1.0.3" />
 	<PackageReference Update="Jakar.Extensions" Version="5.8.2" />
 	<PackageReference Update="MarineLang" Version="0.3.39-alpha" />
