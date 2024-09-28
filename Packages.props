@@ -15,7 +15,7 @@
 	<PackageReference Update="SettingsDb" Version="1.1.0" />
 	<PackageReference Update="Firebend.AutoCrud.Web" Version="4.3.2" />
 	<PackageReference Update="datagen.Core" Version="1.0.3" />
-	<PackageReference Update="Jakar.Extensions" Version="5.8.2" />
+	<PackageReference Update="Jakar.Extensions" Version="8.13.3" />
 	<PackageReference Update="MarineLang" Version="0.3.39-alpha" />
 	<PackageReference Update="Catalyst.DataProcessing.Engine.SqlServer" Version="6.1.2204.1302" />
 	<PackageReference Update="PrismSharp.Highlighting.HTML" Version="0.1.0-build.2" />
