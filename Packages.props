@@ -7,7 +7,7 @@
 	<PackageReference Update="Microsoft.SourceLink.GitHub"                                    Version="1.1.1" />
     <PackageReference Update="DotFramework.Infra.Caching" Version="2.97.1" />
     <PackageReference Update="KSG.Data.Core" Version="1.5.101.1" />
-    <PackageReference Update="Nodsoft.WowsReplaysUnpack" Version="0.5.1" />
+    <PackageReference Update="Nodsoft.WowsReplaysUnpack" Version="2.0.12" />
     <PackageReference Update="pdbme.pdbInfrastructure" Version="1.0.5" />
     <PackageReference Update="SettingsDb" Version="1.1.0" />
 	<PackageReference Update="datagen.MySql" Version="0.0.8" />
