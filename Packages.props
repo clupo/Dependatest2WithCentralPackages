@@ -28,7 +28,7 @@
     <PackageReference Update="CheckoutSDK" Version="3.8.0" />
     <PackageReference Update="Graphr.Neo4j" Version="0.0.10" />
     <PackageReference Update="Newtonsoft.Json" Version="13.0.1 " />
-    <PackageReference Update="Serilog" Version="2.11.0" />
+    <PackageReference Update="Serilog" Version="4.1.0" />
     <PackageReference Update="Castle.Core" Version="4.4.1" />
     <PackageReference Update="Moq" Version="4.17.2" />
     <PackageReference Update="AutoMapper" Version="10.1.1" />
